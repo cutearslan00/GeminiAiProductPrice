@@ -27,7 +27,7 @@ except ImportError:
     import matplotlib.pyplot as plt
 
 # Initialize Gemini client
-genai.configure(api_key="AIzaSyATju07lbZzWjn3DGdGH5sHq7bs-MoeSes")  # <-- Apni Gemini API key lagani hai yahan
+genai.configure(api_key="")  # <-- Apni Gemini API key lagani hai yahan
 
 model = genai.GenerativeModel('gemini-1.5-pro')  # ya koi aur Gemini model
 
